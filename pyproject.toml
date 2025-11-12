@@ -9,6 +9,9 @@ authors = [
 requires-python = ">=3.10,<3.13"
 dependencies = []
 
+[project.optional-dependencies]
+dev = ["ipykernel>=6.25.0", "pytest>=7.4.0", "ruff==0.14.4", "pyright==1.1.405"]
+
 [project.scripts]
 auto-x = "auto_x:main"
 
