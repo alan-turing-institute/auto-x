@@ -15,7 +15,7 @@ dev = [
     "pytest>=9.0.1",
     "pytest-cov>=7.0.0",
     "ruff==0.14.4",
-    "pyright==1.1.405",
+    "pyright==1.1.407",
     "pre-commit>=4.4.0",
 ]
 
