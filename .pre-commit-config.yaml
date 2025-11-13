@@ -14,8 +14,7 @@ repos:
   rev: v1.1.405
   hooks:
   - id: pyright
-# - repo: https://github.com/kyanan/nbstripout
-#   rev: 0.8.1
-#   hooks:
-#   - id: nbstripout
-#     exclude: ^case_studies/
+- repo: https://github.com/kynan/nbstripout
+  rev: 0.8.1
+  hooks:
+  - id: nbstripout
