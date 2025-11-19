@@ -25,7 +25,7 @@ wheels = [
 ]
 
 [[package]]
-name = "auto-x"
+name = "auto-z"
 version = "0.1.0"
 source = { editable = "." }
 
